@@ -2,7 +2,7 @@ Cats and Dogs classifier with a pre-trained model VGG-19:
 
 In this project, a pre-trained VGG-19 model was used to create a machine learning classifier for images of cats and dogs. The dataset for training and evaluation was divided into three sets: a training set, a validation set, and a test set. Data augmentation was applied to the training set in order to increase the number of images and expose the model to different variations of the training data, which helps to reduce overfitting. The convolutional base of the pre-trained model was frozen and used as a feature extractor, and the resulting features were fed through a global average pooling layer and a fully-connected classifier. The classifier was then fine-tuned by unfreezing the top layers of the model and training them along with the fully-connected layer. The performance of the model was evaluated by plotting the learning curves of the training and validation accuracy/loss, and the final model achieved nearly 98% accuracy on the validation set. It was also able to make accurate predictions on new data from the test set.
 The learning curves of the training and validation accuracy/loss when using the VGG-19 base model as a fixed feature extractor:
-<img src="Cats&Dogs classifier with VGG19 model\plot1.PNG">
+<img src="Machine_learning\Cats&Dogs classifier with VGG19 model\plot1.PNG">
 
 The learning curves of the training and validation accuracy/loss when fine-tuning the last few layers of the VGG-19 base model and training the classifier on top of it: 
-<img src="Cats&Dogs classifier with VGG19 model\plot2.PNG">
+<img src="Machine_learning\Cats&Dogs classifier with VGG19 model\plot2.PNG">
