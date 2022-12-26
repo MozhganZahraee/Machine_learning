@@ -1,3 +1,3 @@
 
 A pre-trained model is a network that has already been trained on a large dataset, typically for image classification. Transfer learning allows you to use the representations learned by this model to extract features from new samples, or to customize the model for a specific task. In this case, the model will be customized through feature extraction, where a new classifier is added on top of the pre-trained model, or fine-tuning, where a few top layers of the base model are unfrozen and jointly trained with the newly-added classifier layers. The process of using a pre-trained model for image classification involves examining and understanding the data, building an input pipeline, composing the model, training the model, and evaluating its performance.
-
+In this project we want to perform a image classifier with a pre-trained model. we chosed a VGG-19 as our base model. with
