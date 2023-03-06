@@ -11,5 +11,5 @@ Another advantage of UNet is its efficient use of memory. By using max-pooling a
 Overall, UNet has proven to be a versatile and effective approach for a wide range of image segmentation tasks. Its success has led to the development of many variants and extensions, such as the Attention UNet and the Residual UNet, which aim to further improve its performance on challenging datasets.
  
 At the end of this project, we will be able to use the UNet to output segmentation masks that show which pixels of an input image are part of the background, foreground, and outline.
-First, we import the modules and download the dataset. We will be training the model on the Oxford Pets - IIT dataset. This contains pet images, their classes, segmentation masks, and head region of interest.
+
 
